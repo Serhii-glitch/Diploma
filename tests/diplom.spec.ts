@@ -7,7 +7,7 @@ test.beforeEach(async ({ page }) => {
 
 test('Malá počítačová akademie', async ({ page }) => {
   await page.locator('text=Vzdělávací programy').first().hover();
-  await page.locator('text=Malá počítačová akademie                                        ').first().click();
+  await page.locator('text=Malá počítačová akademie').first().click();
   await expect(page.getByText(/Navrženo tak, abychom připravili děti na budoucnost/)).toBeVisible();
 });
 
