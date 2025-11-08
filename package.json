@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "roni-diploma",
+=======
+  "name": "diploma-playwright",
+>>>>>>> 628bb005228351558fddad88cf9f9f9cb28f3e20
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {},
